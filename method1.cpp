@@ -51,7 +51,6 @@ void rotateArray(int arr[], int size, int num)
     int count = 0;
     for (int i = size - num; i < size; i++)
     {
-        count;
         arr[i] = temp[count];
         count++;
     }
